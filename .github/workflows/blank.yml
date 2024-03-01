@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITAM  GAT 2024</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #5a17ac;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px;
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .apply-btn {
+            background-color: #3498db;
+            color: #ecf0f1;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .apply-btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GITAM </h1>
+        <p>Admissions 2024 - GAT</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#apply">Apply Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to GITAM College</h2>
+        <p>Empowering Minds, Enriching Lives</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about GITAM College and our commitment to excellence in education.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <p>Discover the wide range of academic programs we offer.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="apply">
+        <h2>Apply for GAT 2024</h2>
+        <p>Join us by applying for the GITAM Admission Test (GAT) 2024.</p>
+        <button class="apply-btn"> <a href="login.html">Apply Now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        
+
+        <!-- Add more content here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us.</p>
+        <!-- Add contact information and a form if needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GITAM College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
